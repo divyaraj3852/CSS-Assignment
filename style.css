@@ -1,0 +1,68 @@
+
+@font-face { font-family: Kablammo; src: url('Kablammo-Regular.ttf'); }
+@font-face { font-family: Bruno; src: url('BrunoAceSC-Regular.ttf'); }
+body{
+    margin: 0%;
+    padding:0px ;
+}
+
+.bg-image {
+    background-image: url("1.jpeg");
+    height: 100%; 
+    width: 110%;
+    background-position: center;
+    background-size: cover;
+  }
+    
+.bg-text h1 {
+    font-size: 50px;
+    text-align: center;
+    color: orangered;
+    font-family: Kablammo;
+    font-size: 4em; 
+}
+
+.button{
+    color:blue;
+    text-decoration: none;
+
+}
+.button:hover{
+    text-decoration: none;
+    color:greenyellow
+}
+.button:active{
+    color: yellow;
+}
+
+.bg-text {
+    background-color: rgba(2, 1, 8, 0.9); 
+    background-color: rgba(11, 10, 10, 0.4); 
+    backdrop-filter: blur(3px);
+    font-family: Bruno;
+    font-size: 14px;
+    color: yellow;
+    font-weight: bold;
+    border: 5px solid red;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    width: 80%;
+    height: 68%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+  div {
+        float: left;
+        height: 470px;
+        width: 23%;
+        padding: 0 0px;
+        padding-left: 15px;
+    }
+
